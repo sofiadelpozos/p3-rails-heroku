@@ -42,6 +42,11 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
+# Add Foundation to your Rails app
+gem 'foundation-rails', '>=6.0'
+# Include jQuery js
+gem 'jquery-rails'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
